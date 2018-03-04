@@ -1,4 +1,4 @@
-# TCUK-SQL
+# SQL
 
 The following lab is to be completed using the H2 Console. 
 
