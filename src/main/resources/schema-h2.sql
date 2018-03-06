@@ -4,9 +4,8 @@ CREATE TABLE people (
   id INT NOT NULL AUTO_INCREMENT,
   first_name VARCHAR2(255) NOT NULL DEFAULT '',
   last_name VARCHAR2(255) NOT NULL DEFAULT '',
-  mobile VARCHAR2(20),
-  birthday DATE DEFAULT NULL,
-  home_id SMALLINT DEFAULT NULL,
+  email VARCHAR2(30),
+  past_purchase INT DEFAULT NULL,
   PRIMARY KEY (id));
 
   ALTER TABLE people
