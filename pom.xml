@@ -41,6 +41,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.atlassian.clover/clover -->
+        <dependency>
+            <groupId>com.atlassian.clover</groupId>
+            <artifactId>clover</artifactId>
+            <version>4.0.6</version>
+        </dependency>
+
     </dependencies>
 
     <build>
